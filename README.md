@@ -28,7 +28,7 @@ The R connector for ADLS is currently part of the Microsoft/AzureSMR github proj
 
 - Clone the sample R client repo
 ```
-	git clone https://github.com/Azure-Samples/adls-azure-data-lake-store-R-get-started.git
+git clone https://github.com/Azure-Samples/adls-azure-data-lake-store-R-get-started.git
 ```
 
 ### Quickstart
@@ -42,10 +42,9 @@ library(devtools)
 install_github("Microsoft/AzureSMR")
 library(AzureSMR)
 ```
-
-    **NOTE:** During this installation process if you come across an error with installing any
-    package, please exit RStudio and delete the respective package folder from the paths
-    specified in .libPaths()
+**NOTE:** During this installation process if you come across an error with installing any
+package, please exit RStudio and delete the respective package folder from the paths
+specified in .libPaths()
 3. Prepare the config.json property file
 ```
 {
