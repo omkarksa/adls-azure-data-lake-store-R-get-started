@@ -36,35 +36,36 @@ The R connector for ADLS is currently part of the Microsoft/AzureSMR github proj
 1. Open the adls-azure-data-lake-store-R-get-started in R studio.
 2. Install required packages
 ```
-	install.packages("devtools", dependencies = TRUE)
-	library(devtools)
-	
-	install_github("Microsoft/AzureSMR")
-	library(AzureSMR)
+install.packages("devtools", dependencies = TRUE)
+library(devtools)
+
+install_github("Microsoft/AzureSMR")
+library(AzureSMR)
 ```
-	**NOTE:** During this installation process if you come across an error with installing any 
-	package, please exit RStudio and delete the respective package folder from the paths 
-	specified in .libPaths()
+
+    **NOTE:** During this installation process if you come across an error with installing any
+    package, please exit RStudio and delete the respective package folder from the paths
+    specified in .libPaths()
 3. Prepare the config.json property file
 ```
-	{
-		"authType": "ClientCredential",
-		"resource": "https://datalake.azure.net/",
-		"tenantID": "72f988bf-blah-41af-blah-2d7cd011blah",
-		"clientID": "1d604733-blah-4b37-blah-98fca981blah",
-		"authKey": "zTw5blah+IN+yIblahrKv2K8dM2/BLah4FogBLAH/ME=",
-		"azureDataLakeAccount": "adlsrtest"
-	}
+{
+    "authType": "ClientCredential",
+    "resource": "https://datalake.azure.net/",
+    "tenantID": "72f988bf-blah-41af-blah-2d7cd011blah",
+    "clientID": "1d604733-blah-4b37-blah-98fca981blah",
+    "authKey": "zTw5blah+IN+yIblahrKv2K8dM2/BLah4FogBLAH/ME=",
+    "azureDataLakeAccount": "adlsrtest"
+}
 ```
 4. Configure the config.json file path in the GettingStarted.R file
 ```
-	configPath <- paste0(getwd(), "/../config.json")
+configPath <- paste0(getwd(), "/../config.json")
 ```
-5. Build and reload the client.
+5. Build and reload the client
 6. Run the sample R client
 ```
-	setwd("<path-to-root-of_adls-azure-data-lake-store-R-get-started_local-repo>")
-	doSomeADLSOperations()
+setwd("<path-to-root-of_adls-azure-data-lake-store-R-get-started_local-repo>")
+doSomeADLSOperations()
 ```
 
 ## Resources
