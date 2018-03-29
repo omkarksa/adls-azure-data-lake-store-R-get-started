@@ -1,4 +1,4 @@
-Package: adls-azure-data-lake-store-R-get-started
+Package: adls_azure_data_lake_store_R_get_started
 Type: Package
 Title: Getting Started With R COnnector For Azure Data Lake Store
 Version: 1.0.0
