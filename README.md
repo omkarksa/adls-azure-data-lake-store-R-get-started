@@ -4,7 +4,7 @@ platforms: R
 author: omkarksa
 ---
 
-# Project Name: Azure Data Lake Store (ADLS): Getting Started
+# Azure Data Lake Store (ADLS): Getting Started
 
 A sample R client using the **R connector for ADLS** to connect to an ADLS store.
 The sample R client shows how to use some of the APIs to do some CRUD operations on the ADLS store.
