@@ -1,0 +1,15 @@
+Package: DataLakeStoreRGettingStarted
+Type: Package
+Title: Getting Started With R COnnector For Azure Data Lake Store
+Version: 1.0.0
+Author: Omkar Aradhya K S (omarad@microsoft.com)
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+Copyright: Microsoft
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: TRUE
+NeedsCompilation: no
+Imports: AzureSMR
+Depends: R(>= 3.0.0)
+RoxygenNote: 6.0.1
