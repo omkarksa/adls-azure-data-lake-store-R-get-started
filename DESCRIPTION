@@ -1,10 +1,11 @@
-Package: DataLakeStoreRGettingStarted
+Package: adls-azure-data-lake-store-R-get-started
 Type: Package
 Title: Getting Started With R COnnector For Azure Data Lake Store
 Version: 1.0.0
-Author: Omkar Aradhya K S (omarad@microsoft.com)
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Author: Omkar Aradhya K S (omkarksa)
+Description: A sample R client that shows how to connect to 
+    Azure Data Lake Store using the R connector for Azure Data
+	Lake Store in the AzureSMR package.
 Copyright: Microsoft
 License: MIT + file LICENSE
 Encoding: UTF-8
