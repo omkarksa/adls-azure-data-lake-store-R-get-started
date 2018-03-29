@@ -18,6 +18,7 @@ The R connector for ADLS is currently part of the Microsoft/AzureSMR github proj
 
 ## Getting Started
 
+
 ### Prerequisites
 
 - Install R version 3.0.0 or above and R studio.
@@ -45,6 +46,7 @@ library(AzureSMR)
 **NOTE:** During this installation process if you come across an error with installing any
 package, please exit RStudio and delete the respective package folder from the paths
 specified in .libPaths()
+
 3. Prepare the config.json property file
 ```
 {
